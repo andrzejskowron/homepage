@@ -182,11 +182,6 @@ function Home({ initialSettings }) {
   const { data: bookmarks } = useSWR("/api/bookmarks");
   const { data: widgets } = useSWR("/api/widgets");
 
-  const servicesAndBookmarks = [
-    ...services.map((sg) => sg.services).flat(),
-    ...bookmarks.map((bg) => bg.bookmarks).flat(),
-  ].filter((i) => i?.href);
-
   useEffect(() => {
     if (settings.language) {
       i18n.changeLanguage(settings.language);
@@ -201,35 +196,7 @@ function Home({ initialSettings }) {
     }
   }, [i18n, settings, color, setColor, theme, setTheme]);
 
-  const [searching, setSearching] = useState(false);
-  const [searchString, setSearchString] = useState("");
   const headerStyle = settings?.headerStyle || "underlined";
-
-  useEffect(() => {
-    function handleKeyDown(e) {
-      if (e.target.tagName === "BODY" || e.target.id === "inner_wrapper") {
-        if (
-          (e.key.length === 1 &&
-            e.key.match(/(\w|\s|[à-ü]|[À-Ü]|[\w\u0430-\u044f])/gi) &&
-            !(e.altKey || e.ctrlKey || e.metaKey || e.shiftKey)) ||
-          // accented characters and the bang may require modifier keys
-          e.key.match(/([à-ü]|[À-Ü]|!)/g) ||
-          (e.key === "v" && (e.ctrlKey || e.metaKey))
-        ) {
-          setSearching(true);
-        } else if (e.key === "Escape") {
-          setSearchString("");
-          setSearching(false);
-        }
-      }
-    }
-
-    document.addEventListener("keydown", handleKeyDown);
-
-    return function cleanup() {
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  });
 
   const tabs = useMemo(
     () => [
@@ -383,13 +350,6 @@ function Home({ initialSettings }) {
       <Script src="/api/config/custom.js" />
 
       <div className="relative container m-auto flex flex-col justify-start z-10 h-full">
-        <QuickLaunch
-          servicesAndBookmarks={servicesAndBookmarks}
-          searchString={searchString}
-          setSearchString={setSearchString}
-          isOpen={searching}
-          close={setSearching}
-        />
         <div
           id="information-widgets"
           className={classNames(
