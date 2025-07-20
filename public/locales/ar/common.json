@@ -437,15 +437,7 @@
         "mem": "الذاكرة",
         "swap": "ذاكرة سواب"
     },
-    "quicklaunch": {
-        "bookmark": "مفضلة",
-        "service": "خدمة",
-        "search": "البحث",
-        "custom": "مُخصّص",
-        "visit": "زيارة",
-        "url": "الرابط",
-        "searchsuggestion": "الإقتراحات"
-    },
+
     "wmo": {
         "0-day": "مشمس",
         "0-night": "صافي",

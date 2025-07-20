@@ -369,38 +369,7 @@ You can then pass `provider` instead of `apiKey` in your widget configuration.
     provider: weatherapi
 ```
 
-## Quick Launch
 
-You can use the 'Quick Launch' feature to search services, perform a web search or open a URL. To use Quick Launch, just start typing while on your homepage (as long as the search widget doesn't have focus).
-
-<img width="1000" alt="quicklaunch" src="https://user-images.githubusercontent.com/4887959/216880811-90ff72cb-2990-4475-889b-7c3a31e6beef.png">
-
-There are a few optional settings for the Quick Launch feature:
-
-- `searchDescriptions`: which lets you control whether item descriptions are included in searches. This is false by default. When enabled, results that match the item name will be placed above those that only match the description.
-- `hideInternetSearch`: disable automatically including the currently-selected web search (e.g. from the widget) as a Quick Launch option. This is false by default, enabling the feature.
-- `showSearchSuggestions`: show search suggestions for the internet search. If this is not specified then the setting will be inherited from the search widget. If it is not specified there either, it will default to false. For custom providers the `suggestionUrl` needs to be set in order for this to work.
-- `provider`: search engine provider. If none is specified it will try to use the provider set for the Search Widget, if neither are present then internet search will be disabled.
-- `hideVisitURL`: disable detecting and offering an option to open URLs. This is false by default, enabling the feature.
-
-```yaml
-quicklaunch:
-  searchDescriptions: true
-  hideInternetSearch: true
-  showSearchSuggestions: true
-  hideVisitURL: true
-  provider: google # google, duckduckgo, bing, baidu, brave or custom
-```
-
-or for a custom search:
-
-```yaml
-quicklaunch:
-  provider: custom
-  url: https://www.ecosia.org/search?q=
-  target: _blank
-  suggestionUrl: https://ac.ecosia.org/autocomplete?type=list&q=
-```
 
 ## Homepage Version
 

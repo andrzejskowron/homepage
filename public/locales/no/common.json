@@ -437,15 +437,7 @@
         "mem": "Mem",
         "swap": "Swap"
     },
-    "quicklaunch": {
-        "bookmark": "Bokmerke",
-        "service": "Tjeneste",
-        "search": "Søk",
-        "custom": "Egendefinert",
-        "visit": "Besøk",
-        "url": "Nettadresse",
-        "searchsuggestion": "Forslag"
-    },
+
     "wmo": {
         "0-day": "Solfylt",
         "0-night": "Klart",

@@ -437,15 +437,7 @@
         "mem": "Mem",
         "swap": "Swap"
     },
-    "quicklaunch": {
-        "bookmark": "Marcador",
-        "service": "Serviço",
-        "search": "Busca",
-        "custom": "Personalizado",
-        "visit": "Visitar",
-        "url": "Endereço URL",
-        "searchsuggestion": "Sugestão"
-    },
+
     "wmo": {
         "0-day": "Solarengo",
         "0-night": "Limpo",

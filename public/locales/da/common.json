@@ -437,15 +437,7 @@
         "mem": "Ram",
         "swap": "Swap"
     },
-    "quicklaunch": {
-        "bookmark": "Bogmærker",
-        "service": "Tjeneste",
-        "search": "Søg",
-        "custom": "Brugerdefinerede",
-        "visit": "Besøg",
-        "url": "URL",
-        "searchsuggestion": "Suggestion"
-    },
+
     "wmo": {
         "0-day": "Solrig",
         "0-night": "Klart",

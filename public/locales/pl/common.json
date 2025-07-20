@@ -437,15 +437,7 @@
         "mem": "Pamięć",
         "swap": "Swap"
     },
-    "quicklaunch": {
-        "bookmark": "Zakładka",
-        "service": "Usługi",
-        "search": "Wyszukaj",
-        "custom": "Niestandardowe",
-        "visit": "Odwiedź",
-        "url": "Adres URL",
-        "searchsuggestion": "Sugestia"
-    },
+
     "wmo": {
         "0-day": "Słoneczny",
         "0-night": "Bezchmurny",

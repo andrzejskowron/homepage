@@ -437,15 +437,7 @@
         "mem": "メモリ",
         "swap": "スワップ"
     },
-    "quicklaunch": {
-        "bookmark": "ブックマーク",
-        "service": "サービス",
-        "search": "検索",
-        "custom": "カスタム",
-        "visit": "訪問",
-        "url": "URL",
-        "searchsuggestion": "提案"
-    },
+
     "wmo": {
         "0-day": "晴れ",
         "0-night": "晴れ",

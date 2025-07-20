@@ -437,15 +437,7 @@
         "mem": "Pamäť",
         "swap": "Swap"
     },
-    "quicklaunch": {
-        "bookmark": "Záložka",
-        "service": "Služba",
-        "search": "Hľadať",
-        "custom": "Vlastné",
-        "visit": "Navštíviť",
-        "url": "Odkaz",
-        "searchsuggestion": "Návrh"
-    },
+
     "wmo": {
         "0-day": "Slnečno",
         "0-night": "Jasno",

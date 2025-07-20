@@ -319,14 +319,7 @@
         "99-day": "雷雨伴随冰雹",
         "99-night": "雷雨伴随冰雹"
     },
-    "quicklaunch": {
-        "bookmark": "书签",
-        "service": "服务",
-        "search": "搜索",
-        "custom": "自定",
-        "visit": "访问",
-        "url": "网址"
-    },
+
     "homebridge": {
         "available_update": "System",
         "updates": "更新",

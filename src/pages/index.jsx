@@ -25,7 +25,7 @@ import { TabContext } from "utils/contexts/tab";
 import { bookmarksResponse, servicesResponse, widgetsResponse } from "utils/config/api-response";
 import ErrorBoundary from "components/errorboundry";
 import themes from "utils/styles/themes";
-import QuickLaunch from "components/quicklaunch";
+
 
 const ThemeToggle = dynamic(() => import("components/toggles/theme"), {
   ssr: false,

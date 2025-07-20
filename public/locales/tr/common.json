@@ -437,15 +437,7 @@
         "mem": "Hafıza",
         "swap": "Swap"
     },
-    "quicklaunch": {
-        "bookmark": "Yer İmi",
-        "service": "Hizmet",
-        "search": "Ara",
-        "custom": "Özel",
-        "visit": "Ziyaret",
-        "url": "URL",
-        "searchsuggestion": "Öneri"
-    },
+
     "wmo": {
         "0-day": "Güneşli",
         "0-night": "Açık",

@@ -437,15 +437,7 @@
         "mem": "記憶體",
         "swap": "交換空間"
     },
-    "quicklaunch": {
-        "bookmark": "書籤",
-        "service": "服務",
-        "search": "搜尋",
-        "custom": "自訂",
-        "visit": "造訪",
-        "url": "網址",
-        "searchsuggestion": "建議"
-    },
+
     "wmo": {
         "0-day": "晴天",
         "0-night": "晴朗",
