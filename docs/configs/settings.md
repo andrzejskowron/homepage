@@ -369,8 +369,6 @@ You can then pass `provider` instead of `apiKey` in your widget configuration.
     provider: weatherapi
 ```
 
-
-
 ## Homepage Version
 
 By default the release version is displayed at the bottom of the page. To hide this, use the `hideVersion` setting, like so:

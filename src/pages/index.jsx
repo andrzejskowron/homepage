@@ -26,7 +26,6 @@ import { bookmarksResponse, servicesResponse, widgetsResponse } from "utils/conf
 import ErrorBoundary from "components/errorboundry";
 import themes from "utils/styles/themes";
 
-
 const ThemeToggle = dynamic(() => import("components/toggles/theme"), {
   ssr: false,
 });
